@@ -21,7 +21,7 @@ module.exports = React.createClass({
     return (
       <html>
         <head>
-          <script src="/bundle.js" />
+          <script src="/client.js" />
         </head>
         <Pages ref="router" onClick={this.onClick} path={this.props.path}>
           <Page path="/" handler={MainPage} />
